@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm 0.3-i18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-27 11:13+0900\n"
-"PO-Revision-Date: 2013-03-27 20:32+0900\n"
+"POT-Creation-Date: 2013-03-28 06:44+0900\n"
+"PO-Revision-Date: 2013-03-28 05:17+0900\n"
 "Last-Translator: palm3r <palm3r.x@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -218,7 +218,7 @@ msgstr "隣接する場所に捨てる"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/action.cpp:354
 msgid "View/Activate Bionics"
-msgstr "バイオニクスを表示／起動"
+msgstr "バイオニクスを表示/起動"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/action.cpp:356
 msgid "Wait for Several Minutes"
@@ -1850,7 +1850,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/bionics_data.cpp:97
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:199
 msgid "Infrared Vision"
-msgstr ""
+msgstr "赤外線映像"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/bionics_data.cpp:97
 msgid ""
@@ -2441,9 +2441,11 @@ msgstr ""
 msgid "Running and swimming are slowed."
 msgstr ""
 
+# 引数順を入れ替えると文字化けします
+# （"%3$s %1$d:%2$02d" など）
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/calendar.cpp:352
 #, c-format
-msgid "%d:%02d%s"
+msgid "%d:%02d %s"
 msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/calendar.cpp:357
@@ -2452,12 +2454,12 @@ msgid "%02d%02d"
 msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/calendar.cpp:368
-msgid " AM"
-msgstr "午前"
+msgid "AM"
+msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/calendar.cpp:370
-msgid " PM"
-msgstr "午後"
+msgid "PM"
+msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/calendar.cpp:385
 msgid "year"
@@ -2988,7 +2990,7 @@ msgstr "やる気が出ない..."
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/crafting.cpp:1343
 msgid "Press ? to describe object.  Press <ENTER> to attempt to craft object."
-msgstr "?: 調べる ／ ENTER: 製作する"
+msgstr "?:調べる / ENTER:製作する"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/crafting.cpp:1406
 #, c-format
@@ -6975,11 +6977,16 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1083
 #, c-format
 msgid "Unknown command: '%c'"
-msgstr ""
+msgstr "不明なコマンド: '%c'"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1100
 msgid "Monster spotted--safe mode is on! (Press '!' to turn it off.)"
 msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1260
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:8246
+msgid "Inventory:"
+msgstr "所持品:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1425
 msgid "You can't disassemble items while in vehicle."
@@ -7019,7 +7026,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1482
 msgid "Save and quit?"
-msgstr ""
+msgstr "セーブして終了しますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1490
 msgid "Saving in vehicles is buggy, stop and get out of the vehicle first"
@@ -7027,7 +7034,11 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1493
 msgid "Commit suicide?"
-msgstr ""
+msgstr "自殺しますか？"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1524
+msgid "FACTIONS:"
+msgstr "勢力:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:1551
 #, c-format
@@ -7227,11 +7238,11 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:2234
 msgid "KILL COUNTS:"
-msgstr "殺害数:"
+msgstr "殺した敵:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:2237
 msgid "You haven't killed any monsters yet!"
-msgstr "あなたはまだ何も殺していません！"
+msgstr "あなたは何も殺していません！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:2283
 #, c-format
@@ -7484,24 +7495,24 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4058
 msgid "Open where? (hjklyubn) "
-msgstr ""
+msgstr "開ける方向？ (hjklyubn) "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4071
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4094
 msgid "That door is already open."
-msgstr ""
+msgstr "そのドアは既に開いています"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4091
 msgid "The door is locked!"
-msgstr ""
+msgstr "そのドアはロックされています！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4098
 msgid "No door there."
-msgstr ""
+msgstr "そこにはドアはありません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4107
 msgid "Close where? (hjklyubn) "
-msgstr ""
+msgstr "閉める方向？ (hjklyubn) "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4120
 #, c-format
@@ -7531,7 +7542,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4147
 msgid "Smash what? (hjklyubn) "
-msgstr ""
+msgstr "叩く方向？ (hjklyubn) "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4177
 #, c-format
@@ -7544,7 +7555,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4194
 msgid "Use item:"
-msgstr ""
+msgstr "使用するアイテム:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4214
 msgid "Choose a vehicle at direction:"
@@ -7977,50 +7988,50 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5132
 msgid "Use directional keys to chose an adjacent square to peek from."
-msgstr ""
+msgstr "覗きこみたい方向が見通せる場所に向かう方向キーを押して下さい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5156
 msgid "Looking Around"
-msgstr ""
+msgstr "周囲を見渡しています"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5157
 msgid "Use directional keys to move the cursor"
-msgstr ""
+msgstr "方向キーでカーソルを動かして下さい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5158
 msgid "to a nearby square."
-msgstr ""
+msgstr " "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5184
 #, c-format
 msgid "%s; Impassable"
-msgstr ""
+msgstr "%s; 通行不可"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5186
 #, c-format
 msgid "%s; Movement cost %d"
-msgstr ""
+msgstr "%s; 移動コスト %d"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5204
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5212
 msgid "There are several items there."
-msgstr ""
+msgstr "アイテムが複数落ちている"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5206
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5214
 msgid "There is an item there."
-msgstr ""
+msgstr "アイテムが落ちている"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5216
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5232
 #, c-format
 msgid "There is a %s there. Parts:"
-msgstr ""
+msgstr "%sがある / パーツ:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5220
 #, c-format
 msgid "There is a %s there."
-msgstr ""
+msgstr "%sがある"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5223
 msgid "There are other items there as well."
@@ -8037,7 +8048,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5247
 msgid "Unseen."
-msgstr ""
+msgstr "視界外"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5250
 #, c-format
@@ -8099,7 +8110,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5524
 msgid "You dont see any items around you!"
-msgstr ""
+msgstr "周囲にアイテムは何も無い！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:5543
 msgid "You cannot pick up items with your claws out!"
@@ -8301,7 +8312,7 @@ msgstr[0] ""
 #, c-format
 msgid "You drop your %s."
 msgid_plural "You drop your %ss."
-msgstr[0] ""
+msgstr[0] "%sを捨てた"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6164
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6247
@@ -8353,7 +8364,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6273
 msgid "Reassign item:"
-msgstr ""
+msgstr "キー割り当てするアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6279
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:4008
@@ -8361,56 +8372,56 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:4573
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:4744
 msgid "You do not have that item."
-msgstr ""
+msgstr "そのキーに割り当てられたアイテムはありません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6282
 #, c-format
 msgid "%c - %s; enter new letter."
-msgstr ""
+msgstr "%c - %s; 新しい文字を入力"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6285
 #, c-format
 msgid "%c is not a valid inventory letter."
-msgstr ""
+msgstr "%cはアイテムには割り当てられません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6305
 msgid "Throw item:"
-msgstr ""
+msgstr "投げるアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6310
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:4304
 msgid "You don't have that item."
-msgstr ""
+msgstr "そのキーに割り当てられたアイテムはありません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6313
 msgid "That is too heavy to throw."
-msgstr ""
+msgstr "それは投げるには重すぎます"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6318
 msgid "That's part of your body, you can't throw that!"
-msgstr ""
+msgstr "それはあなたの一部です。投げられませんよ！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6382
 msgid "You need a free arm to drive!"
-msgstr ""
+msgstr "運転するためには自由な腕が必要です！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6387
 #, c-format
 msgid "Your %s starts charging."
-msgstr ""
+msgstr "%sは充電を開始した"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6393
 msgid "You need a charged UPS."
-msgstr ""
+msgstr "充電されたUPSが必要です"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6400
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6813
 msgid "Out of ammo!"
-msgstr ""
+msgstr "弾切れだ！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6410
 msgid "You need to reload!"
-msgstr ""
+msgstr "リロードする必要がある！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6414
 #, c-format
@@ -8490,15 +8501,15 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6707
 msgid "Consume item:"
-msgstr ""
+msgstr "食べるアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6727
 msgid "Wear item:"
-msgstr ""
+msgstr "着るアイテム選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6742
 msgid "Take off item:"
-msgstr ""
+msgstr "脱ぐアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6749
 msgid "Invalid selection."
@@ -8539,7 +8550,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6874
 #, c-format
 msgid "You can't unload a %s!"
-msgstr ""
+msgstr "%sから弾薬を抜くことは出来ません！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:6891
 #, c-format
@@ -8568,7 +8579,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7005
 msgid "Wield item:"
-msgstr ""
+msgstr "武器として持つアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7007
 msgid "Wield item: Press - to choose a style"
@@ -8576,7 +8587,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7023
 msgid "Read:"
-msgstr ""
+msgstr "読むアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7030
 msgid "You talk to yourself for a moment."
@@ -8660,7 +8671,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7270
 #, c-format
 msgid "Moving past this %s is slow!"
-msgstr ""
+msgstr "%sの上を通る為、移動速度が遅くなります！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:7274
 #, c-format
@@ -8880,11 +8891,11 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:8245
 msgid "GAME OVER"
-msgstr ""
+msgstr "ゲームオーバー"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:8309
 msgid "Press q to return"
-msgstr ""
+msgstr "     qで戻る     "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:8323
 #, c-format
@@ -9838,30 +9849,30 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:57
 msgid "Weight: "
-msgstr ""
+msgstr "  重量: "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:65
 msgid "Volume: "
-msgstr ""
+msgstr " 容量:  "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:74
 msgid "WEAPON:"
-msgstr ""
+msgstr "武器:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:96
 msgid "ITEMS WORN:"
-msgstr ""
+msgstr "装備中:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:117
 #, c-format
 msgid "Items:  %d/52 "
-msgstr ""
+msgstr " 数量:  %d/52 "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:322
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:392
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:403
 msgid "Multidrop:"
-msgstr ""
+msgstr "捨てるアイテムを選択:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui.cpp:399
 #, c-format
@@ -9881,55 +9892,55 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:6
 msgid "AMMUNITION:"
-msgstr ""
+msgstr "弾薬:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:6
 msgid "CLOTHING:"
-msgstr ""
+msgstr "衣服:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:6
 msgid "FIREARMS:"
-msgstr ""
+msgstr "銃火器:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:6
 msgid "FOOD/DRINKS:"
-msgstr ""
+msgstr "食料/飲料:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:6
 msgid "GROUND:"
-msgstr ""
+msgstr "地面:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "BOOKS:"
-msgstr ""
+msgstr "本:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "MEDICINE/DRUGS"
-msgstr ""
+msgstr "薬物:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "MODS/BIONICS"
-msgstr ""
+msgstr "生体パーツ:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "OTHER:"
-msgstr ""
+msgstr "その他:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "TOOLS:"
-msgstr ""
+msgstr "道具:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/inventory_ui_data.cpp:7
 msgid "WEAPONS:"
-msgstr ""
+msgstr "武器:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/item.cpp:328
 msgid " Volume: "
-msgstr ""
+msgstr "   容量: "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/item.cpp:329
 msgid "    Weight: "
-msgstr ""
+msgstr "      重量: "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/item.cpp:330
 msgid " Bash: "
@@ -11277,6 +11288,7 @@ msgid "Simple cloth bandages. Used for healing small amounts of damage."
 msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/itypedef.cpp:544
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:122
 msgid "first aid"
 msgstr ""
 
@@ -19517,11 +19529,11 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/map.cpp:817
 msgid "Smashable. "
-msgstr ""
+msgstr "破壊可能"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/map.cpp:819
 msgid "Diggable. "
-msgstr ""
+msgstr "掘削可能"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/map.cpp:821
 msgid "Rough. "
@@ -19529,7 +19541,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/map.cpp:823
 msgid "Sharp. "
-msgstr ""
+msgstr "鋭利"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/map.cpp:1007
 #, c-format
@@ -23288,7 +23300,7 @@ msgstr "   スキル   "
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/newcharacter.cpp:278
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/newcharacter.cpp:772
 msgid "DESCRIPTION"
-msgstr " 名前／性別 "
+msgstr " 名前/性別 "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/newcharacter.cpp:297
 msgid "j/k, 8/2, or arrows select"
@@ -24185,11 +24197,11 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:117
 #, c-format
 msgid "Dialogue with %s"
-msgstr ""
+msgstr "%sとの会話"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:118
 msgid "Your response:"
-msgstr ""
+msgstr "あなたの返答:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:168
 msgid "  And I have more I'd like you to do."
@@ -24539,64 +24551,64 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:504
 msgid "What's the matter?"
-msgstr ""
+msgstr "どうしたんですか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:506
 msgid "I don't care."
-msgstr ""
+msgstr "どうでもいい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:511
 msgid "I'll do it!"
-msgstr ""
+msgstr "私がやります！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:514
 msgid "Not interested."
-msgstr ""
+msgstr "興味ない"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:519
 msgid "Not a problem."
-msgstr ""
+msgstr "問題ありません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:521
 msgid "Got any advice?"
-msgstr ""
+msgstr "何かアドバイスはありますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:523
 msgid "Can you share some equipment?"
-msgstr ""
+msgstr "何か装備を分けてくれませんか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:525
 msgid "I'll be back soon!"
-msgstr ""
+msgstr "すぐに戻ります！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:530
 msgid "Sounds good, thanks."
-msgstr ""
+msgstr "いいね、ありがとう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:532
 msgid "Sounds good.  Bye!"
-msgstr ""
+msgstr "いいね、またね！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:537
 msgid "I'm sorry."
-msgstr ""
+msgstr "ごめんなさい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:539
 msgid "Whatever.  Bye."
-msgstr ""
+msgstr "どうでもいい、さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:546
 msgid "I'm sorry... I failed."
-msgstr ""
+msgstr "ごめん... 失敗した"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:549
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:556
 msgid "Not yet."
-msgstr ""
+msgstr "まだです"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:559
 msgid "Yup, I killed it."
-msgstr ""
+msgstr "うん、私が殺すよ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:567
 msgid "No.  I'll get back to it, bye!"
@@ -24604,19 +24616,19 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:575
 msgid "Yup!  Here it is!"
-msgstr ""
+msgstr "ああ！ここにあります！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:581
 msgid "Here I am."
-msgstr ""
+msgstr "ここに居ます"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:586
 msgid "Here it is!"
-msgstr ""
+msgstr "ここにあります！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:591
 msgid "I killed it."
-msgstr ""
+msgstr "殺した"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:596
 msgid "Mission success!  I don't know what else to say."
@@ -24652,33 +24664,33 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:637
 msgid "Thank you."
-msgstr ""
+msgstr "ありがとう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:640
 msgid "Thanks, bye."
-msgstr ""
+msgstr "ありがとう、さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:646
 msgid "What should we do now?"
-msgstr ""
+msgstr "私たちは今何をするべきですか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:648
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:910
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:949
 msgid "Can I do anything for you?"
-msgstr ""
+msgstr "何か出来ることはありますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:651
 msgid "Want to travel with me?"
-msgstr ""
+msgstr "私と一緒に来ますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:655
 msgid "About that job..."
-msgstr ""
+msgstr "依頼についてですが..."
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:658
 msgid "About one of those jobs..."
-msgstr ""
+msgstr "依頼のひとつについてですが..."
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:661
 msgid "I can't leave the shelter without equipment..."
@@ -24686,15 +24698,15 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:663
 msgid "Well, bye."
-msgstr ""
+msgstr "さてと、さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:669
 msgid "Hmm, okay.  Bye."
-msgstr ""
+msgstr "ふーむ、分かった。さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:675
 msgid "Okay, fine."
-msgstr ""
+msgstr "分かった、いいよ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:682
 msgid "Because I'm holding a thermal detonator!"
@@ -24719,7 +24731,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:720
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:796
 msgid "Eh, never mind."
-msgstr ""
+msgstr "あー、気にしないで"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:722
 msgid "Never mind, I'll do without.  Bye."
@@ -24727,7 +24739,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:728
 msgid "Thank you!"
-msgstr ""
+msgstr "ありがとう！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:730
 msgid "Thanks!  But can I have some more?"
@@ -24735,19 +24747,19 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:732
 msgid "Thanks, see you later!"
-msgstr ""
+msgstr "ありがとう、またあとで！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:737
 msgid "Okay, okay, sorry."
-msgstr ""
+msgstr "オーケーオーケー、ごめんよ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:739
 msgid "Seriously, give me more stuff!"
-msgstr ""
+msgstr "おい！もっと渡せ！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:741
 msgid "Okay, fine, bye."
-msgstr ""
+msgstr "オーケー分かった、さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:748
 #, c-format
@@ -24774,7 +24786,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:802
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:819
 msgid "Sounds good."
-msgstr ""
+msgstr "いいね"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:805
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:813
@@ -24784,7 +24796,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:808
 msgid "Okay.  Lead the way."
-msgstr ""
+msgstr "オーケー先導してくれ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:811
 msgid "No, we'll be okay here."
@@ -24800,61 +24812,61 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:840
 msgid "I can keep you safe."
-msgstr ""
+msgstr "私はあなたの安全を確保出来る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:848
 msgid "You can keep me safe."
-msgstr ""
+msgstr "あなたは私の安全を確保出来る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:856
 msgid "We're friends, aren't we?"
-msgstr ""
+msgstr "私たちは友達じゃないか？な？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:864
 msgid "!I'll kill you if you don't."
-msgstr ""
+msgstr "!もしそうしないなら殺してやる！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:875
 msgid "Awesome!"
-msgstr ""
+msgstr "素晴らしい！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:877
 msgid "Okay, let's go!"
-msgstr ""
+msgstr "オーケー出発しよう！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:890
 msgid "How much further?"
-msgstr ""
+msgstr "どれくらい遠い？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:893
 msgid "I'm going to go my own way for a while."
-msgstr ""
+msgstr "私はしばらく別行動を取るよ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:896
 msgid "I'd like to lead for a while."
-msgstr ""
+msgstr "しばらく私に先導させてくれないか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:902
 msgid "Step aside.  I'm leader now."
-msgstr ""
+msgstr "道を譲ってくれ、今は私がリーダーだ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:912
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:953
 msgid "Let's trade items."
-msgstr ""
+msgstr "アイテムを交換しよう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:915
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:961
 msgid "Let's go."
-msgstr ""
+msgstr "出発しよう！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:920
 msgid "Nah, I'm just kidding."
-msgstr ""
+msgstr "何だよ、冗談だって"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:922
 msgid "Yeah, I'm sure.  Bye."
-msgstr ""
+msgstr "ああ、その通りだよ、さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:928
 msgid "Good.  Something else..."
@@ -24862,27 +24874,27 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:930
 msgid "Alright, let's go."
-msgstr ""
+msgstr "問題ない、出発しよう！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:935
 msgid "Okay, okay."
-msgstr ""
+msgstr "オーケーオーケー"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:940
 msgid "Okay, thanks."
-msgstr ""
+msgstr "オーケーありがとう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:942
 msgid "Let's keep moving."
-msgstr ""
+msgstr "移動を続けよう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:947
 msgid "Combat commands..."
-msgstr ""
+msgstr "戦闘指示..."
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:951
 msgid "Can you teach me anything?"
-msgstr ""
+msgstr "私に何か教えてくれないか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:957
 msgid "Wait at this base,"
@@ -24890,59 +24902,59 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:966
 msgid "Change your engagement rules..."
-msgstr ""
+msgstr "交戦規則を変えよう..."
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:969
 msgid "Don't use guns anymore."
-msgstr ""
+msgstr "銃は使うな"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:973
 msgid "You can use guns."
-msgstr ""
+msgstr "銃を使ってもよい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:978
 msgid "Don't worry about noise."
-msgstr ""
+msgstr "騒音は気にしなくていい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:982
 msgid "Use only silent weapons."
-msgstr ""
+msgstr "静かな武器だけ使え"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:987
 msgid "Don't use grenades anymore."
-msgstr ""
+msgstr "手榴弾は使うな"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:991
 msgid "You can use grenades."
-msgstr ""
+msgstr "手榴弾を使ってもよい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1001
 msgid "Don't fight unless your life depends on it."
-msgstr ""
+msgstr "生命に関わる敵だけ攻撃しろ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1006
 msgid "Attack enemies that get too close."
-msgstr ""
+msgstr "接近しすぎた敵だけ攻撃しろ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1011
 msgid "Attack enemies that you can kill easily."
-msgstr ""
+msgstr "楽に殺せる敵だけ攻撃しろ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1016
 msgid "Attack only enemies that I attack first."
-msgstr ""
+msgstr "私が最初に攻撃した敵だけ攻撃しろ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1021
 msgid "Attack anything you want."
-msgstr ""
+msgstr "好きな敵を攻撃していい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1034
 msgid "Another survivor!  We should travel together."
-msgstr ""
+msgstr "生存者だ！私たちは一緒に旅をするべきだ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1036
 msgid "What are you doing?"
-msgstr ""
+msgstr "何をしてるんだ？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1038
 msgid "Care to trade?"
@@ -24950,38 +24962,38 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1044
 msgid "&Put away weapon."
-msgstr ""
+msgstr "&武器をしまう"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1049
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1097
 msgid "&Drop weapon."
-msgstr ""
+msgstr "&武器を捨てる"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1056
 msgid "Don't worry, I'm not going to hurt you."
-msgstr ""
+msgstr "心配しないでくれ、傷つけるつもりはない"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1064
 msgid "!Drop your weapon!"
-msgstr ""
+msgstr "!武器を落とせ！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1071
 msgid "!Get out of here or I'll kill you."
-msgstr ""
+msgstr "!ここから出て行け、さもなくば殺すぞ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1085
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1108
 msgid "!Calm down.  I'm not going to hurt you."
-msgstr ""
+msgstr "!落ち着け、傷つけるつもりはない"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1091
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1114
 msgid "!Screw you, no."
-msgstr ""
+msgstr "!クソッタレめ、断る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1120
 msgid "&Put hands up."
-msgstr ""
+msgstr "&両手を上げる"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1127
 msgid "I see."
@@ -24990,19 +25002,19 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1129
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1156
 msgid "Bye."
-msgstr ""
+msgstr "さようなら"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1134
 msgid "Now get out of here."
-msgstr ""
+msgstr "今すぐここを出て行け"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1141
 msgid "Okay, I'm going."
-msgstr ""
+msgstr "オーケー、行くよ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1150
 msgid "Okay."
-msgstr ""
+msgstr "オーケー"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1319
 msgid "Reward"
@@ -25054,7 +25066,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1545
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:5240
 msgid "fists"
-msgstr ""
+msgstr "素手"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1558
 msgid "..."
@@ -25066,23 +25078,23 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1654
 msgid "L: Look at"
-msgstr ""
+msgstr "L: 観察する"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1655
 msgid "S: Size up stats"
-msgstr ""
+msgstr "S: 強さを見定める"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1672
 msgid "You may be attacked! Proceed?"
-msgstr ""
+msgstr "攻撃されるかもしれません！続行しますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1674
 msgid "You'll be helpless! Proceed?"
-msgstr ""
+msgstr "まずい事態になりそうです！続行しますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1682
 msgid "You: "
-msgstr ""
+msgstr "あなた: "
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1747
 #, c-format
@@ -25109,21 +25121,21 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1821
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1832
 msgid "< Back"
-msgstr ""
+msgstr "< 戻る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1823
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1834
 msgid "More >"
-msgstr ""
+msgstr "進む >"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1874
 msgid "Examine which item?"
-msgstr ""
+msgstr "どのアイテムを調べますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:1893
 #, c-format
 msgid "Not enough cash!  You have $%d, price is $%d."
-msgstr ""
+msgstr "金が足りない！あんたは$%d持ってるがこれは$%dだ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:6
 msgid "nothing"
@@ -25180,7 +25192,7 @@ msgstr "道路"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:31
 msgid "road, manhole"
-msgstr "道路／マンホール"
+msgstr "道路/マンホール"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:32
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:33
@@ -25399,7 +25411,7 @@ msgstr "LMOEシェルター"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:146
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:147
 msgid "science lab"
-msgstr "科学実験所"
+msgstr "科学研究所"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:148
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:149
@@ -25537,19 +25549,19 @@ msgstr "下水道"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:215
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:216
 msgid "ant tunnel"
-msgstr ""
+msgstr "アリのトンネル"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:217
 msgid "ant food storage"
-msgstr ""
+msgstr "アリの食料庫"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:218
 msgid "ant larva chamber"
-msgstr ""
+msgstr "幼虫アリの部屋"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:219
 msgid "ant queen chamber"
-msgstr ""
+msgstr "女王アリの部屋"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/omdata.cpp:221
 msgid "tutorial room"
@@ -25569,7 +25581,7 @@ msgstr "←→: 変更"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:39
 msgid "Use left/right keys to toggle."
-msgstr "ESC／q: 終了"
+msgstr "ESC/q: 終了"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:40
 msgid "Press ESC or q to return.             "
@@ -25606,6 +25618,8 @@ msgid ""
 "If true, bright backgrounds are not\n"
 "used--some consoles are not compatible"
 msgstr ""
+"明るい背景色を使わないようにします\n"
+"いくつかのコンソールでは機能しません"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:270
 msgid ""
@@ -25624,7 +25638,7 @@ msgid ""
 "If true, automatically follow the\n"
 "crosshair when firing/throwing"
 msgstr ""
-"射撃／投擲時に自動で\n"
+"射撃/投擲時に自動で\n"
 "対象にカーソルをあわせます"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:272
@@ -25802,7 +25816,7 @@ msgstr "Y/Nは大文字のみ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:299
 msgid "No Bright Backgrounds"
-msgstr ""
+msgstr "明るい背景の禁止"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:300
 msgid "24 Hour Time"
@@ -25876,91 +25890,13 @@ msgstr "モンスターの静的配置"
 msgid "Classic zombies"
 msgstr "クラシック・ゾンビ"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:390
-msgid ""
-"\n"
-"# If true, use C not F\n"
-"use_celsius F\n"
-"# If true, use Km/h not mphuse_metric_system F\n"
-"# If true, y/n prompts are case-sensitive, y and n are not accepted\n"
-"force_capital_yn T\n"
-"# If true, bright backgrounds are not used--some consoles are not "
-"compatible\n"
-"no_bright_backgrounds F\n"
-"# 12h/24h Time: 0 = AM/PM, 1 = 24h military, 2 = 24h normal\n"
-"24_hour 0\n"
-"# If true, automatically follow the crosshair when firing/throwing\n"
-"snap_to_target F\n"
-"# If true, safemode will be on after starting a new game or loading\n"
-"safemode T\n"
-"# If safemode is enabled, distance to hostiles when safemode should show a "
-"warning (0=Viewdistance)\n"
-"safemodeproximity 0\n"
-"# If true, auto-safemode will be on after starting a new game or loading\n"
-"autosafemode F\n"
-"# Number of turns after safemode is reenabled when no zombies are in "
-"safemodeproximity distance\n"
-"autosafemodeturns 50\n"
-"# If true, game will periodically save the map\n"
-"autosave F\n"
-"# If true will add nice gradual-lighting (should only make a difference "
-"@night)\n"
-"gradual_night_light F\n"
-"# If true, will query beefore disassembling items\n"
-"query_disassemble T\n"
-"# Player will automatically drop empty containers after use\n"
-"# 0 - don't drop any, 1 - drop all except watertight containers, 2 - drop "
-"all containers\n"
-"drop_empty 0\n"
-"# \n"
-"# GAMEPLAY OPTIONS: CHANGING THESE OPTIONS WILL AFFECT GAMEPLAY "
-"DIFFICULTY! \n"
-"# Level of skill rust: 0 - vanilla Cataclysm, 1 - capped at skill levels, 2 "
-"- none at all\n"
-"skill_rust 0\n"
-"# Delete world after player death: 0 - no, 1 - yes, 2 - query\n"
-"delete_world 0\n"
-"# Initial points available in character generation\n"
-"initial_points 6\n"
-"# Initial time at character generation\n"
-"initial_time 8\n"
-"# The width of the terrain window in characters.\n"
-"viewport_x 12\n"
-"# The height of the terrain window, which is also the height of the main "
-"window, in characters.\n"
-"viewport_y 12\n"
-"# Spawn zombies at game start instead of during the game.  You must create a "
-"new world after changing\n"
-"static_spawn T\n"
-"# Only spawn classic zombies and natural wildlife.  You must create a new "
-"world after changing\n"
-"classic_zombies F\n"
-msgstr ""
-
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/options.cpp:444
-msgid ""
-"# This is the options file.  It works similarly to keymap.txt: the format "
-"is\n"
-"# <option name> <option value>\n"
-"# <option value> may be any number, positive or negative.  If you use a\n"
-"# negative sign, do not put a space between it and the number.\n"
-"#\n"
-"# If # is at the start of a line, it is considered a comment and is "
-"ignored.\n"
-"# In-line commenting is not allowed.  I think.\n"
-"#\n"
-"# If you want to restore the default options, simply delete this file.\n"
-"# A new options.txt will be created next time you play.\n"
-"\n"
-msgstr ""
-
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/output.cpp:346
 msgid "Y/N - Case Sensitive"
 msgstr "Y/N - 大文字のみ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:368
 msgid "> More notes"
-msgstr ""
+msgstr "> メモの続き"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:374
 msgid "Press letter to center on note"
@@ -25968,7 +25904,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:375
 msgid "Spacebar - Return to map  "
-msgstr ""
+msgstr "スペース - マップに戻る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1116
 msgid "# Unexplored"
@@ -25977,7 +25913,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1120
 #, c-format
 msgid "Distance to target: %d"
-msgstr ""
+msgstr "目標までの距離: %d"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1122
 msgid "Use movement keys to pan.  "
@@ -25985,7 +25921,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1123
 msgid "0 - Center map on character"
-msgstr ""
+msgstr "0 - プレイヤーを中央に"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1124
 msgid "t - Toggle legend          "
@@ -25993,51 +25929,51 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1125
 msgid "/ - Search                 "
-msgstr ""
+msgstr "/ - 検索"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1126
 msgid "N - Add/Edit a note        "
-msgstr ""
+msgstr "N - メモを追加・編集"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1127
 msgid "D - Delete a note          "
-msgstr ""
+msgstr "D - メモを削除"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1128
 msgid "L - List notes             "
-msgstr ""
+msgstr "L - メモ一覧"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1129
 msgid "Esc or q - Return to game  "
-msgstr ""
+msgstr "Esc/q - ゲームに戻る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1166
 msgid "Note (X:TEXT for custom symbol):"
-msgstr ""
+msgstr "メモ (X:TEXTで独自シンボル追加):"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1171
 msgid "Really delete note?"
-msgstr ""
+msgstr "本当にメモを削除しますか？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1188
 msgid "Search term:"
-msgstr ""
+msgstr "検索内容:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1202
 msgid "Find place:"
-msgstr ""
+msgstr "場所を検索:"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1206
 msgid "'<' '>' Cycle targets."
-msgstr ""
+msgstr "'<' '>' 標的を切り替え"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1207
 msgid "Enter/Spacebar to select."
-msgstr ""
+msgstr "Enterまたはスペースで選択"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:1208
 msgid "q to return."
-msgstr ""
+msgstr "qで戻る"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/overmap.cpp:2458
 #, c-format
@@ -26120,39 +26056,39 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:903
 msgid "Dexterity"
-msgstr ""
+msgstr "器用さ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:906
 msgid "Strength"
-msgstr ""
+msgstr "筋力"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:909
 msgid "Perception"
-msgstr ""
+msgstr "感覚"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:911
 msgid "Intelligence"
-msgstr ""
+msgstr "知性"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:916
 msgid "Pain"
-msgstr ""
+msgstr "苦痛"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:919
 msgid "   Dexterity -"
-msgstr ""
+msgstr "      器用さ -"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:919
 msgid "Strength -"
-msgstr ""
+msgstr "    筋力 -"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:922
 msgid "Perception -"
-msgstr ""
+msgstr "      感覚 -"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:923
 msgid "Intelligence -"
-msgstr ""
+msgstr "        知性 -"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:937
 msgid "Stimulant Overdose"
@@ -26621,7 +26557,7 @@ msgstr "疲労 *"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:1852
 msgid "XP: "
-msgstr "経験値: "
+msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/player.cpp:1866
 #, c-format
@@ -27394,8 +27330,9 @@ msgid ""
 "faster than others.  Note that this only applies to real-world experience,\n"
 "not to skill gain from other sources like books."
 msgstr ""
-"あなたは通常よりも50%%速くスキルを学ぶことが出来ます。ただし、これは実際の\n"
-"経験による学習にのみ適用されます。本などによる学習には適用されません。"
+"あなたは通常よりも50%%速くスキルを学ぶことが出来ます。\n"
+"ただし、これは実際の経験による学習にのみ適用されます。\n"
+"本などによる学習には適用されません。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:56
 msgid "Deft"
@@ -27406,8 +27343,8 @@ msgid ""
 "While you're not any better at melee combat, you are better at recovering\n"
 "from a miss, and will be able to attempt another strike faster."
 msgstr ""
-"あなたは接近戦でミスをした時でも素早くリカバリして、次の攻撃へ移ることが出来"
-"ます。"
+"あなたは接近戦でミスをした時でも素早くリカバリして、\n"
+"次の攻撃へ移ることが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:59
 msgid "Drunken Master"
@@ -27419,8 +27356,9 @@ msgid ""
 "you.  While under the influence of alcohol, your melee skill will rise\n"
 "considerably, especially unarmed combat."
 msgstr ""
-"あなたは酔拳を極めた達人です。アルコールの影響がある間、\n"
-"あなたの接近戦能力は大幅に上昇します。特に素手での戦闘で効果があります。"
+"あなたは酔拳を極めた達人です。\n"
+"アルコールの影響がある間、あなたの接近戦能力は大幅に上昇します。\n"
+"特に素手での戦闘で効果があります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:63
 msgid "Gourmand"
@@ -27434,9 +27372,9 @@ msgid ""
 "some\n"
 "unsavory meals."
 msgstr ""
-"あなたは誰よりも速く多く飲み食いします! 普通の人よりも食事をより楽しんでいる"
-"ので、\n"
-"美味しい食事はやる気をより高め、まずい食事でもそれほどやる気が低下しません。"
+"あなたは誰よりも速く多く飲み食いします！\n"
+"普通の人よりも食事をより楽しんでいるので、美味しい食事はやる気をより高め、\n"
+"まずい食事でもそれほどやる気が低下しません。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:67
 msgid "Animal Empathy"
@@ -27450,20 +27388,21 @@ msgid ""
 "woodland\n"
 "creatures."
 msgstr ""
-"平和的な動物はあなたから逃げなくなります。攻撃的な動物もそれほど\n"
-"攻撃的ではなくなります。これは自然に生息する動物にのみ適用されます。"
+"平和的な動物はあなたから逃げなくなります。\n"
+"攻撃的な動物もそれほど攻撃的ではなくなります。\n"
+"これは自然に生息する動物にのみ適用されます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:71
 msgid "Terrifying"
-msgstr "ゾッとするような何か"
+msgstr "威圧"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:71
 msgid ""
 "There's something about you that creatures find frightening, and they are\n"
 "more likely to try to flee."
 msgstr ""
-"あなたには動物を怯えさせ、逃げ出させるような何かがあるようです。\n"
-"相手がより逃げ出しやすくなります。"
+"あなたには相手を怯えさせ、逃げ出させるような雰囲気があります。\n"
+"敵がより逃げ出しやすくなります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:74
 msgid "Disease Resistant"
@@ -27485,8 +27424,8 @@ msgid ""
 "rush\n"
 "which increases your speed and strength significantly."
 msgstr ""
-"あなたは非常に危機的な状況で、一時的に速度や腕力が大きく上昇するのを感じるで"
-"しょう。"
+"あなたは非常に危機的な状況で一時的に、\n"
+"速度や腕力が大きく上昇するのを感じるでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:80
 msgid "Self-aware"
@@ -27497,7 +27436,8 @@ msgid ""
 "You get to see your exact amount of HP remaining, instead of only having a\n"
 "vague idea of whether you're in good condition or not."
 msgstr ""
-"曖昧な表示の代わりに、正確な残りHPを知ることが出来るようになるでしょう。"
+"あなたは曖昧な表示ではなく、\n"
+"正確な残りHPを知ることが出来るようになるでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:83
 msgid "Inconspicuous"
@@ -27509,18 +27449,18 @@ msgid ""
 "wander\n"
 "close to you."
 msgstr ""
-"寝ている時やじっとしている時、\n"
-"モンスターがあまり近づいて来なくなります。"
+"あなたが寝ている時やじっとしている時、\n"
+"モンスターはあまり近づいて来なくなります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:86
 msgid ""
 "Although you still suffer the negative effects of pain, it also brings a\n"
 "unique pleasure to you."
-msgstr "苦痛はあなたに独特な喜びをもたらすでしょう。"
+msgstr "あなたは苦痛から独特な喜びを見出すでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:86
 msgid "Masochist"
-msgstr "マゾ"
+msgstr "マゾヒスト"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:89
 msgid "Light Step"
@@ -27542,8 +27482,8 @@ msgid ""
 "At some point in the past you had a bionic upgrade installed in your body.\n"
 "You start the game with a power system, and one random bionic enhancement."
 msgstr ""
-"過去のある時点において、あなたは自身の肉体に義体化を施しました。\n"
-"あなたは動力源と、ランダムな義体パーツをひとつ備えた状態でゲームを始めます。"
+"過去のある時点において、あなたは自身の肉体に生体強化を施しました。\n"
+"あなたは動力源と、ランダムな生体パーツをひとつ備えた状態でゲームを始めます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:94
 msgid "Robust Genetics"
@@ -27593,7 +27533,8 @@ msgid ""
 "with a pair."
 msgstr ""
 "何もつけていないと見える範囲が非常に狭くなりますが、\n"
-"メガネをつけていれば大丈夫です。ゲームはメガネをつけた状態で始まります。"
+"メガネをつけていれば大丈夫です。\n"
+"ゲームはメガネをつけた状態で始まります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:111
 msgid "Heavy Sleeper"
@@ -27613,8 +27554,9 @@ msgid ""
 "physical\n"
 "limitations.  However, you are guaranteed to start with an inhaler."
 msgstr ""
-"あなたは時々、ぜん息用の吸入具を使わないと激しい身体的な制約を\n"
-"被ることになります。ゲームはぜん息用の吸入具を持った状態で始まります。"
+"あなたは時々ぜん息用の吸入具を使わないと\n"
+"激しい身体的な制約を被ることになります。\n"
+"ゲームは吸入具を持った状態で始まります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:116
 msgid "Bad Back"
@@ -27626,7 +27568,7 @@ msgid ""
 "You simply can not carry as much as people with a similar strength could.\n"
 "Your maximum weight carried is reduced by 35%%."
 msgstr ""
-"あなたは普通の人のように多くの荷物を持ち運ぶことが出来ません。\n"
+"あなたは普通の人ほど多くの荷物を持ち運ぶことが出来ません。\n"
 "持てる荷物の最大重量が35%%減少します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:119
@@ -27664,8 +27606,9 @@ msgid ""
 "You have problems with eating meat, it's possible for you to eat it but\n"
 "you will suffer morale penalties due to nausea."
 msgstr ""
-"あなたは肉アレルギーを持っています。食べること自体は可能ですが、\n"
-"吐き気に苦しんでいる間、士気の低下は免れないでしょう。"
+"あなたは肉アレルギーを持っています。\n"
+"食べること自体は可能ですが吐き気に苦しんでいる間、\n"
+"士気の低下は免れないでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:128
 msgid "Glass Jaw"
@@ -27698,7 +27641,7 @@ msgid ""
 "of these for longer."
 msgstr ""
 "アルコールとドラッグはすぐにあなたの脳に到達します。\n"
-"より長く、ネガティブな影響を受け続けることになります。"
+"より長くネガティブな影響を受け続けることになります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:133
 msgid "Lightweight"
@@ -27722,8 +27665,9 @@ msgid ""
 "shot.  This has no effect when firing handguns or other semi-automatic\n"
 "firearms."
 msgstr ""
-"あなたは一発だけ撃とうとしている時でも、ごくまれにフルオート射撃してしまう\n"
-"悪い癖があります。この悪癖は拳銃やセミオートの銃では問題になりません。"
+"あなたは一発だけ撃とうとしている時でも、\n"
+"ごくまれにフルオート射撃してしまう悪い癖を持っています。\n"
+"これは拳銃やセミオートの銃では問題を起こしません。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:139
 msgid "Trigger Happy"
@@ -27739,8 +27683,9 @@ msgid ""
 "animals\n"
 "that track your scent will do so more easily."
 msgstr ""
-"あなたの体臭はかなりやばいレベルです。人間相手には特に問題を起こしませんが\n"
-"動物相手にはあなたを追跡するための有益な手がかりになってしまいます。"
+"あなたの体臭はかなりやばいレベルです。\n"
+"人間相手には特に問題を起こしませんが、\n"
+"動物にあなたを追跡する手がかりを与えてしまうでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:146
 msgid "Chemical Imbalance"
@@ -27754,8 +27699,8 @@ msgid ""
 "changes to your internal chemistry will manifest themselves on occasion,\n"
 "such as hunger, sleepiness, narcotic effects, etc."
 msgstr ""
-"精神的、または身体的に関わらず、あなたは軽い化学的不均衡に苦しんでいます。\n"
-"初期症状は空腹、不眠、麻酔性の効果として現れるでしょう。"
+"精神的、身体的に関わらず、あなたは軽い化学的不均衡に苦しんでいます。\n"
+"初期症状は空腹・不眠・麻薬のような効果として現れるでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:150
 msgid "Schizophrenic"
@@ -27769,16 +27714,18 @@ msgid ""
 "through\n"
 "the use of Thorazine."
 msgstr ""
-"あなたは定期的に軽いものから完全な幻視までに至る妄想に苦しむでしょう。\n"
-"そのうち、いくつかのものはソラジンを使うことで抑制することが出来ます。"
+"あなたは軽い被害妄想から、完全な幻視までに至るまで、\n"
+"定期的な妄想に苦しむでしょう。\n"
+"いくつかの影響はソラジンを使うことで抑制することが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:154
 msgid ""
 "During moments of great stress or under the effects of stimulants, you may\n"
 "find your hands shaking uncontrollably, severely reducing your dexterity."
 msgstr ""
-"大きなストレスや薬物の影響下で、あなたの手は震えが止まらなくなります。\n"
-"それはあなたの器用さを低下させるでしょう。"
+"大きなストレスや薬物の影響下を受けると、\n"
+"あなたの手は震えが止まらなくなります。\n"
+"これはあなたの器用さを低下させます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:154
 msgid "Jittery"
@@ -27795,9 +27742,8 @@ msgid ""
 "morale penalties for carrying less than maximum volume (weight is ignored).\n"
 "Xanax can help control this anxiety."
 msgstr ""
-"あなたは出来るだけ多くの物を持ち運んでいなければ、精神の安定を得られませ"
-"ん。\n"
-"所持容量（重量は影響しません）が最大を下回ると、あなたの士気は低下します。\n"
+"あなたは可能な限りの物を持っていなければ、精神の安定を得られません。\n"
+"重量は影響しませんが、所持容量が最大を下回ると士気の低下を引き起こします。\n"
 "この症状はザナックスを服用することで抑制することが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:161
@@ -27810,9 +27756,9 @@ msgid ""
 "at half speed in all skills except your best one. Note that combining this\n"
 "with Fast Learner will come out to a slower rate of learning for all skills."
 msgstr ""
-"あなたは特定のスキルのみを得意とする傾向があります。最も高いスキル以外は\n"
-"通常の半分の速度でしか学習出来ません。※速い学習速度と組み合わせた場合、\n"
-"全てのスキルの学習速度が低下します！"
+"あなたは特定の分野のみを得意とする傾向があります。\n"
+"最も高いスキル以外は通常の半分の速度でしか学習出来ません。\n"
+"※速い学習速度と組み合わせた場合、全てのスキルの学習速度が低下します！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:165
 msgid "Mood Swings"
@@ -27820,7 +27766,7 @@ msgstr "気分屋"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:165
 msgid "Your morale will shift up and down at random, often dramatically."
-msgstr "あなたの士気はランダムに、極端な上昇下降を繰り返すでしょう。"
+msgstr "あなたの士気はランダムに、極端な上昇と下降を繰り返すでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:167
 msgid "Weak Stomach"
@@ -27898,7 +27844,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:199
 msgid "Your eyes have mutated to pick up radiation in the infrared spectrum."
-msgstr ""
+msgstr "あなたの眼は赤外線を感知するように変異しています。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:201
 msgid "Very Fast Healer"
@@ -27908,6 +27854,7 @@ msgstr "非常に強い回復力"
 msgid ""
 "Your flesh regenerates slowly, and you will regain HP even when not sleeping."
 msgstr ""
+"あなたの肉体はゆっくりと自然回復し、睡眠中以外でもHPを回復出来るでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:203
 msgid "Regeneration"
@@ -27915,7 +27862,7 @@ msgstr "再生能力"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:203
 msgid "Your flesh regenerates from wounds incredibly quickly."
-msgstr ""
+msgstr "あなたの肉体は非常に速い速度で傷を回復します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:205
 msgid "Fangs"
@@ -27927,6 +27874,8 @@ msgid ""
 "extra\n"
 "attack when conditions favor it."
 msgstr ""
+"あなたの歯は2インチの長さを持つ牙に成長しました。\n"
+"可能な時は牙で追加のダメージを与えることが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:208
 msgid "Nictitating Membrane"
@@ -27938,6 +27887,8 @@ msgid ""
 "allowing\n"
 "you to see as though you were wearing goggles."
 msgstr ""
+"あなたは透明な第二のまぶたを持っています。\n"
+"まるでゴーグルをつけているかのように水中を見ることが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:211
 msgid "Gills"
@@ -27947,12 +27898,15 @@ msgstr "エラ"
 msgid ""
 "You've grown a set of gills in your neck, allowing you to breathe underwater."
 msgstr ""
+"あなたは首に一組のエラを持っています。それは水中でも呼吸を可能にします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:213
 msgid ""
 "A set of flexible green scales have grown to cover your body, acting as a\n"
 "natural armor."
 msgstr ""
+"あなたの身体は自然の鎧として機能する、\n"
+"柔軟性のある緑色のウロコに覆われています。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:213
 msgid "Scales"
@@ -27964,6 +27918,9 @@ msgid ""
 "natural armor.  It is very difficult to penetrate, but also limits your\n"
 "flexibility, resulting in a -2 penalty to Dexterity."
 msgstr ""
+"あなたの身体は自然の鎧として機能する重厚な緑色のウロコで\n"
+"覆われています。このウロコは貫通することが非常に難しいほど強固ですが、\n"
+"同時にあなたの動きを制限するので、器用さに-2のペナルティを受けます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:216
 msgid "Thick Scales"
@@ -27976,6 +27933,9 @@ msgid ""
 "act as a weak set of armor, improve your ability to swim, and make you\n"
 "difficult to grab."
 msgstr ""
+"あなたの身体は非常に柔軟性のある、滑らかなウロコに覆われています。\n"
+"これは弱い鎧として機能すると同時にあなたの水泳能力を強化します。\n"
+"さらに敵があなたを掴むことを難しくします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:220
 msgid "Sleek Scales"
@@ -27993,6 +27953,9 @@ msgid ""
 "hurt\n"
 "a little more."
 msgstr ""
+"あなたの骨は非常に軽く出来ているので、走る速さも攻撃速度も通常より\n"
+"10%%速くなります。しかし所持重量の限界が20%%低下し、打撃に対しても\n"
+"わずかに脆弱になってしまいます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:228
 msgid "Feathers"
@@ -28004,16 +27967,20 @@ msgid ""
 "marginal protection against attacks and minor protection from cold. They\n"
 "also provide a natural waterproofing."
 msgstr ""
+"あなたの身体は虹色の羽毛で覆われています。それはごく僅かな防御力と\n"
+"寒さに対する若干の抵抗力をもたらし、さらに自然の耐水能力も身につきます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:232
 msgid ""
 "Light fur has grown to coveryour entire body, providing slight protection\n"
 "from cold."
 msgstr ""
+"あなたの身体は薄い毛皮に覆われています。\n"
+"これは寒さに対する僅かな抵抗力をもたらします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:232
 msgid "Lightly Furred"
-msgstr ""
+msgstr "薄い毛皮"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:235
 msgid "Furry"
@@ -28024,10 +27991,12 @@ msgid ""
 "Thick black fur has grown to cover your entire body, providing a marginal\n"
 "protection against attacks, and considerable protection from cold."
 msgstr ""
+"あなたの身体は黒く分厚い毛皮に覆われています。\n"
+"ごく僅かな防御力とかなりの耐寒性を備えています。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:238
 msgid "Chitinous Skin"
-msgstr "甲殻類の肌"
+msgstr "エビの皮膚"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:238
 msgid ""
@@ -28035,10 +28004,12 @@ msgid ""
 "provides\n"
 "minor protection from cutting wounds."
 msgstr ""
+"あなたの皮膚は薄く柔軟なキチン質の殻に変異します。\n"
+"斬りつける攻撃に対して若干の防御力をもたらします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:241
 msgid "Chitinous Armor"
-msgstr "甲殻類の鎧"
+msgstr "甲虫の皮膚"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:241
 msgid ""
@@ -28046,10 +28017,12 @@ msgid ""
 "provides\n"
 "considerable physical protection, but reduces your dexterity by 1."
 msgstr ""
+"あなたは昆虫のようなキチン質の外骨格を備えています。\n"
+"かなりの防御力をもたらしますが、器用さに-1のペナルティを受けます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:244
 msgid "Chitinous Plate"
-msgstr "甲殻類の硬い鎧"
+msgstr "カブト虫の皮膚"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:244
 msgid ""
@@ -28057,10 +28030,13 @@ msgid ""
 "a beetle.  It provides excellent physical protection, but reduces your\n"
 "dexterity by 1 and encumbers all body parts but your eyes and mouth."
 msgstr ""
+"あなたの身体はカブト虫のような分厚く硬いキチン質の甲羅を備えています。\n"
+"素晴らしい防御力をもたらしますが、器用さに-1のペナルティを受ける上に、\n"
+"さらに眼と口を覗く全ての部位が着込みすぎの状態になります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:248
 msgid "Spines"
-msgstr "トゲ"
+msgstr "針"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:248
 msgid ""
@@ -28069,10 +28045,14 @@ msgid ""
 "a part of your body that is not covered by clothing, they will receive\n"
 "moderate damage."
 msgstr ""
+"あなたの身体は鋭い針で覆われています。素手の敵があなたの\n"
+"衣服に覆われていない部位を殴った場合、殴った側が僅かですがダメージを受けま"
+"す。"
 
+# Quillsをどう訳せばいいのか分からなかったので、説明文から推測してとりあえず「大きなトゲ」にしときます
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:252
 msgid "Quills"
-msgstr ""
+msgstr "大きな針"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:252
 msgid ""
@@ -28081,10 +28061,12 @@ msgid ""
 "a part of your body that is not covered by clothing, they will receive\n"
 "significant damage."
 msgstr ""
+"あなたの身体は大きな針で覆われています。素手の敵があなたの\n"
+"衣服に覆われていない部位を殴った場合、殴った側がかなりのダメージを受けます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:256
 msgid "Phelloderm"
-msgstr "コルク皮層"
+msgstr "コルク皮質"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:256
 msgid ""
@@ -28092,6 +28074,8 @@ msgid ""
 "provides a weak armor, and helps you retain moisture, resulting in less\n"
 "thirst."
 msgstr ""
+"あなたの皮膚は薄緑色で、少し木肌のような質感になっています。\n"
+"これは弱い防御力と、喉の渇きを和らげる保湿能力をもたらします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:260
 msgid "Bark"
@@ -28102,10 +28086,12 @@ msgid ""
 "Your skin is coated in a light bark, like that of a tree.  This provides\n"
 "resistance to bashing and cutting damage and minor protection from fire."
 msgstr ""
+"あなたの皮膚は薄い樹皮で覆われています。\n"
+"これは打撃と斬撃に対する防御力と、若干の耐火能力をもたらします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:263
 msgid "Thorns"
-msgstr ""
+msgstr "トゲ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:263
 msgid ""
@@ -28113,6 +28099,10 @@ msgid ""
 "strikes a part of your body that is not covered by clothing, they will\n"
 "receive minor damage.  Your punches may also deal extra damage."
 msgstr ""
+"あなたの皮膚は小さなトゲで覆われています。素手の敵があなたの\n"
+"衣服に覆われていない部位を殴った場合、殴った側が僅かですがダメージを受けま"
+"す。\n"
+"さらにあなたのパンチは追加のダメージを得ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:267
 msgid ""
@@ -28122,14 +28112,16 @@ msgid ""
 "nutrition\n"
 "while in sunlight."
 msgstr ""
+"あなたの身体に生える毛は全て草のような長い葉に変異しています。\n"
+"これは防御力はさておき、日なたにいる間、僅かな栄養分をもたらします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:267
 msgid "Leaves"
-msgstr ""
+msgstr "葉"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:271
 msgid "Long Fingernails"
-msgstr ""
+msgstr "長い爪"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:271
 msgid ""
@@ -28139,7 +28131,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:274
 msgid "Claws"
-msgstr "爪"
+msgstr "鉤爪"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:274
 msgid ""
@@ -28176,14 +28168,16 @@ msgid ""
 "Ever since you ate that Marloss berry, you can't get its scent out of your\n"
 "nose, and you have a strong desire to eat more."
 msgstr ""
+"マーロスベリーを食べて以来、その香りが鼻について離れません。\n"
+"もっと食べたくて仕方ありません。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:284
 msgid "Marloss Carrier"
-msgstr ""
+msgstr "マーロス感染"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:287
 msgid "Insect Pheromones"
-msgstr ""
+msgstr "昆虫フェロモン"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:287
 msgid ""
@@ -28191,16 +28185,20 @@ msgid ""
 "many\n"
 "species of insects.  Insects will attack you much less."
 msgstr ""
+"あなたの身体は少量の昆虫フェロモンを発しており、多くの昆虫はあなたを\n"
+"味方だと認識するので、昆虫から攻撃されることは少なくなるでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:290
 msgid "Mammal Pheromones"
-msgstr ""
+msgstr "動物フェロモン"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:290
 msgid ""
 "Your body produces low-level pheromones which puts mammals at ease.  They\n"
 "will be less likely to attack or flee from you."
 msgstr ""
+"あなたの身体は少量の動物フェロモンを発しています。\n"
+"動物があなたを攻撃したり、逃げ出すことは少なくなるでしょう。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:293
 msgid "Disease Immune"
@@ -28219,30 +28217,36 @@ msgid ""
 "Your body produces a potent venom.  Any special attacks from mutatations\n"
 "have a chance to poison your target."
 msgstr ""
+"あなたの身体は強い毒を分泌します。\n"
+"変異による特殊攻撃は全て対象に毒を与えるチャンスを得ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:299
 msgid "Slime Hands"
-msgstr ""
+msgstr "スライムの手"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:299
 msgid ""
 "The skin on your hands is a mucous membrane and produces a thick, acrid\n"
 "slime.  Attacks using your hand will cause minor acid damage."
 msgstr ""
+"あなたの手のひらは粘膜になっていて、ドロドロした刺激性の強い\n"
+"液体を分泌します。素手による攻撃は対象に僅かですが酸性ダメージを与えます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:302
 msgid "Compound Eyes"
-msgstr ""
+msgstr "複眼"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:302
 msgid ""
 "Your eyes are compound, like those of an insect.  This increases your\n"
 "perception by 2 so long as you aren't wearing eyewear."
 msgstr ""
+"あなたの眼は昆虫のような複眼です。\n"
+"これは眼を覆うものをつけていない間、感覚を+2増加させます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:305
 msgid "Padded Feet"
-msgstr ""
+msgstr "パッド入りの足"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:305
 #, c-format
@@ -28251,10 +28255,13 @@ msgid ""
 "penalty for not wearing shoes, and even receive a 10%% bonus when running\n"
 "barefoot."
 msgstr ""
+"あなたの足裏にはしっかりとしたパッドがついています。\n"
+"裸足でいる間、移動コストのペナルティを一切受けず、\n"
+"さらに走っている間、10%%のボーナスを得ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:309
 msgid "Hooves"
-msgstr ""
+msgstr "蹄"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:309
 msgid ""
@@ -28262,10 +28269,13 @@ msgid ""
 "more damage, provides natural armor, and removes the need to wear shoes;\n"
 "however, you can not wear shoes of any kind."
 msgstr ""
+"あなたの足は蹄へと変異しました。キック攻撃での追加ダメージと\n"
+"自然の防御力をもたらし、靴を履く必要も無くなりますが、\n"
+"いかなる種類の靴も履くことは出来なくなります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:313
 msgid "Saprovore"
-msgstr ""
+msgstr "腐肉食"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:313
 msgid ""
@@ -28273,10 +28283,12 @@ msgid ""
 "material.  You can eat rotten food, albeit for less nutrition than\n"
 "usual."
 msgstr ""
+"あなたの消化器系は腐敗した食べ物を消化することに特化しています。\n"
+"通常より少ない栄養しか得られませんが、腐敗した食べ物を食べることが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:317
 msgid "Ruminant"
-msgstr ""
+msgstr "反芻"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:317
 msgid ""
@@ -28284,6 +28296,8 @@ msgid ""
 "plant material.  You can eat underbrush by standing over it and pressing\n"
 "E."
 msgstr ""
+"あなたの消化器系はセルロースや、他の植物系の物を消化することが出来ます。\n"
+"生えている場所に立ってEを押すことで、草薮を食べることも出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:321
 msgid "Horns"
@@ -28294,6 +28308,8 @@ msgid ""
 "You have a pair of small horns on your head.  They allow you to make a weak\n"
 "piercing headbutt attack."
 msgstr ""
+"あなたの頭には一対の小さなツノが生えています。\n"
+"それらのツノは頭突きによる弱い貫通ダメージを与えることが出来ます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:324
 msgid "Curled Horns"
@@ -28305,6 +28321,10 @@ msgid ""
 "to make a strong bashing headbutt attack, but prevent you from wearing any\n"
 "headwear."
 msgstr ""
+"あなたの頭には雄羊のような湾曲した2本の大きなツノが生えています。\n"
+"そのツノによってあなたは頭突きによる強力な打撃ダメージを与えることが出来ま"
+"す。\n"
+"しかし、いかなる種類の頭にかぶる装備もつけることは不可能になります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:328
 msgid "Pointed Horns"
@@ -28316,6 +28336,9 @@ msgid ""
 "allow you to make a strong piercing headbutt attack, but prevent you from\n"
 "wearing any headwear the is not made of fabric."
 msgstr ""
+"あなたの頭にはレイヨウのような長く鋭く尖った2本のツノが生えています。\n"
+"このツノは頭突きによる強力な貫通ダメージを与えることが出来ます。\n"
+"しかし、編み物以外のいかなる頭にかぶる装備もつけることは不可能になります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:332
 msgid "Antennae"
@@ -28327,6 +28350,9 @@ msgid ""
 "monsters up to a few tiles away, even if you can't see or hear them, but\n"
 "prevent you from wearing headwear that is not made of fabric."
 msgstr ""
+"あなたは一対の触覚を持っています。これは数タイル離れた敵の接近を\n"
+"見えない状態で検知することが出来ますが、編み物以外のいかなる頭に\n"
+"かぶる装備もつけることは不可能になります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:336
 msgid "Road-Runner"
@@ -28348,6 +28374,7 @@ msgstr "太くて短い尻尾"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:339
 msgid "You have a short, stubby tail, like a rabbit's.  It serves no purpose."
 msgstr ""
+"あなたはウサギのような太くて短い尻尾を持っていますが、何の役にも立ちません。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:341
 msgid "Tail Fin"
@@ -28356,6 +28383,8 @@ msgstr "尾びれ"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:341
 msgid "You have a fin-like tail.  It allows you to swim more quickly."
 msgstr ""
+"あなたは尾びれのような尻尾を持っています。\n"
+"これは水中でより速く泳ぐことを可能にします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:343
 msgid "Long Tail"
@@ -28366,16 +28395,20 @@ msgid ""
 "You have a long, graceful tail, like that of a big cat.  It improves your\n"
 "balance, making your ability to dodge higher."
 msgstr ""
+"あなたは大型のネコ科動物のような長く優雅な尻尾を持っています。\n"
+"これはあなたのバランス感覚を高め、回避能力を強化します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:346
 msgid "Fluffy Tail"
-msgstr "もふもふの尻尾"
+msgstr "ふわふわの尻尾"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:346
 msgid ""
 "You have a long, fluffy-furred tail.  It greatly improves your balance,\n"
 "making your ability to dodge much higher."
 msgstr ""
+"あなたは長いふわふわの尻尾を持っています。\n"
+"これはあなたのバランス感覚を高め、回避能力を強化します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:349
 msgid "Spiked Tail"
@@ -28387,6 +28420,8 @@ msgid ""
 "scorpion.  It does not improve your balance at all, but allows for a\n"
 "powerful piercing attack."
 msgstr ""
+"あなたはサソリのような先端に針のついた尻尾を持っています。\n"
+"これはバランス感覚を一切高めませんが、強力な刺す攻撃を可能にします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:353
 msgid "Club Tail"
@@ -28397,30 +28432,32 @@ msgid ""
 "You have a long tail that ends in a heavy, bony club.  It does not improve\n"
 "your balance at all, but alows for a powerful bashing attack."
 msgstr ""
+"あなたは重く骨のようなコブのついた長い尻尾を持っています。\n"
+"これはバランス感覚は一切高めませんが、強力な打撃を可能にします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:356
 msgid "Pain Recovery"
-msgstr "苦痛の回復"
+msgstr "苦痛からの回復"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:356
 msgid "You recover from pain slightly faster than normal."
-msgstr ""
+msgstr "あなたは通常よりわずかに速く苦痛から回復します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:358
 msgid "Quick Pain Recovery"
-msgstr "苦痛の速い回復"
+msgstr "速い苦痛からの回復"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:358
 msgid "You recover from pain faster than normal."
-msgstr ""
+msgstr "あなたは通常より速く苦痛から回復します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:360
 msgid "Very Quick Pain Reovery"
-msgstr "苦痛の非常に速い回復"
+msgstr "非常に速い苦痛からの回復"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:360
 msgid "You recover from pain much faster than normal."
-msgstr ""
+msgstr "あなたは非常に速く苦痛から回復します。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:362
 msgid "Bird Wings"
@@ -28434,6 +28471,9 @@ msgid ""
 "not\n"
 "take falling damage under any circumstances."
 msgstr ""
+"あなたは一対の大きな羽毛の翼を持っています。\n"
+"あなたの身体は飛ぶには重すぎますが、落下速度を下げることは出来ます。\n"
+"いかなる落下ダメージも受けることは無くなります。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:366
 msgid "Insect Wings"
@@ -28444,16 +28484,21 @@ msgid ""
 "You have a pair of large, translucent wings.  You buzz them as you run,\n"
 "enabling you to run faster."
 msgstr ""
+"あなたは一対の大きな半透明の羽根を持っています。\n"
+"羽ばたくことでより速く走ることが出来るようになりますが、\n"
+"ブンブンとうるさい羽音が響きます。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:369
 msgid ""
 "A set of tentacles surrounds your mouth.  They allow you to eat twice as\n"
 "fast."
 msgstr ""
+"あなたは触手に囲まれた口を持っています。\n"
+"これは二倍の速さで食べることを可能にします。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:369
 msgid "Mouth Tentacles"
-msgstr ""
+msgstr "触手の生えた口"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/pldata.cpp:372
 msgid ""
@@ -29335,6 +29380,339 @@ msgstr "%sが%sの%sを撃った"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/ranged.cpp:982
 msgid "Someone"
 msgstr "誰か"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:12
+msgid "dodge"
+msgstr "回避"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:13
+msgid ""
+"Your skill at dodging, whether it be from an attack, a trap, or a natural\n"
+"occurrence.  It is also used when attempting to fall gracefully, or in "
+"other\n"
+"acrobatic feats."
+msgstr ""
+"敵の攻撃や罠、自然の脅威からの回避力を高めます。\n"
+"さらに高所からの落下時に優雅に着地出来る可能性が高くなります。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:17
+msgid "melee"
+msgstr "接近戦"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:18
+msgid ""
+"Your skill at hand-to-hand combat, both with and without a weapon. At low\n"
+"levels this merely increases your chance to hit, but at higher levels it "
+"also\n"
+"increases the damage done significantly."
+msgstr ""
+"武器を持っている時、または武器を持たない取っ組み合いなど至近距離での\n"
+"戦闘を上手くこなす能力を高めます。低レベルでは命中率の増加に留まりますが、\n"
+"高レベルではダメージを著しく増加させます。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:22
+msgid "unarmed combat"
+msgstr "格闘"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:23
+msgid ""
+"Your skill at combat without a weapon. While at low levels, unarmed combat "
+"is\n"
+"a good way to die quickly, those skilled in it can eventually use throws "
+"and\n"
+"crushing blows to quickly dispatch enemies."
+msgstr ""
+"武器を持たない素手での格闘を上手くこなす能力を高めます。\n"
+"低レベルでは素手での戦闘はあっさり死ぬのに良い方法でしかありませんが、\n"
+"高レベルでは投げや強烈なパンチを駆使して、敵を素早く片付けることが出来ます。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:27
+msgid "bashing weapons"
+msgstr "打撃武器"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:28
+msgid ""
+"Your skill at combat with weapons that club or bash your enemies. This\n"
+"includes everything from rocks to baseball bats, and even the butt of "
+"rifles.\n"
+"This increases damage, and at higher levels will improve your chance to hit."
+msgstr ""
+"敵を叩きのめす、こん棒のような武器の扱いが上手くなります。\n"
+"これは石から野球のバット、果てはライフルの台尻までが対象になります。\n"
+"低レベルではダメージが増加し、高レベルでは命中率を高めます。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:32
+msgid "cutting weapons"
+msgstr "斬撃武器"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:33
+msgid ""
+"Your skill at combat with weapons that cut or slice your enemies. At first\n"
+"this will simply slightly increase accuracy and damage; later on it will\n"
+"help you bypass armor and thick hides."
+msgstr ""
+"敵を切断し切り刻む武器の扱いが上手くなります。\n"
+"低レベルではわずかに命中率とダメージが上昇するのみですが、\n"
+"高レベルでは敵の防具や分厚い毛皮の隙を狙えるようになります。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:37
+msgid "piercing weapons"
+msgstr "刺突武器"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:38
+msgid ""
+"Your skill at combat that involves piercing weapons.  This includes spears,\n"
+"which only have a stabbing attack, and things like knives, which can cut or\n"
+"pierce.  This increases your accuracy and chance of a deadly critical."
+msgstr ""
+"突くタイプの武器の扱いが上手くなります。これは切るか突くか選べるナイフも、\n"
+"単純に突くしか出来ない槍ような武器も両方対象になります。\n"
+"レベルが上がると命中率とダメージ、致死的な一撃を与える確率が上がります。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:42
+msgid "throwing"
+msgstr "投擲"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:43
+msgid ""
+"Your skill at throwing items and getting them to go where you want. "
+"Increases\n"
+"both accuracy and, at higher levels, range."
+msgstr ""
+"アイテムを狙い通りの場所に投げる能力を高めます。\n"
+"レベルが上がると命中率と飛距離の双方が上がります。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:47
+msgid "firearms"
+msgstr "銃火器"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:48
+msgid ""
+"Your general skill at firearms. This increases your accuracy with any gun,\n"
+"but not as much as the skill associated with the gun in question."
+msgstr ""
+"一般的な銃火器の扱いが上手くなります。\n"
+"これは全ての銃火器における命中率を上げますが\n"
+"銃のタイプごとの専門スキルほど効果的ではありません。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:52
+msgid "handguns"
+msgstr "拳銃"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:53
+msgid ""
+"Your skill with handguns. These have poor accuracy, but generally are fired\n"
+"and reloaded faster than other guns, and are good in close quarters."
+msgstr ""
+"拳銃を上手く扱えるようになります。\n"
+"拳銃は命中させるのが難しいですが、最も扱いやすく速くリロード出来るので\n"
+"近距離での射撃に適しています。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:57
+msgid "shotguns"
+msgstr "ショットガン"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:58
+msgid ""
+"Your skill with shotguns. Shot is easy to hit with, and does massive "
+"damage,\n"
+"but has short range. Shotguns may also be loaded with slugs, which go "
+"further\n"
+"and do as much damage, but are not very accurate."
+msgstr ""
+"ショットガンを上手く扱えるようになります。散弾は容易に命中させれる上に\n"
+"大きなダメージを与えることが出来ますが、非常に短い射程しかありません。\n"
+"スラッグ弾はより遠くを狙えて、さらに強力ですが命中率は非常に悪くなります。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:62
+msgid "submachine guns"
+msgstr "サブマシンガン"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:63
+msgid ""
+"Your skill with submachine guns and machine pistols. Halfway between a "
+"pistol\n"
+"and an assault rifle, these weapons fire and reload quickly, and may fire "
+"in\n"
+"bursts, but they are not very accurate."
+msgstr ""
+"サブマシンガンとマシンピストルを上手く扱えるようになります。\n"
+"これは拳銃とライフルの中間に位置し、射撃速度もリロードも速く、\n"
+"さらにバースト射撃が可能ですが、命中率は高くありません。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:67
+msgid "rifles"
+msgstr "ライフル"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:68
+msgid ""
+"Your skill with rifles, both assault rifles and semi-auto hunting rifles.\n"
+"These have terrific range and accuracy, but are very slow to fire and "
+"reload,\n"
+"and are not very good in close quarters."
+msgstr ""
+"アサルトライフルやセミオートの狩猟用ライフルを上手く扱えるようになります。\n"
+"これらの銃は素晴らしい射程距離と命中率を持ちますが、射撃速度もリロードも\n"
+"非常に遅く近距離での射撃には適していません。"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:72
+msgid "archery"
+msgstr "弓術"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:73
+msgid ""
+"Your skill with all kinds of bows, from crossbows to handmade long bows.\n"
+"These are quiet, but require some amount of strength to use, and are not\n"
+"terribly accurate. They can only be deadly in skilled hands."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:77
+msgid "grenade launcher"
+msgstr "グレネードランチャー"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:78
+msgid ""
+"Your skill with grenade launchers, whether standalone or as a rifle mod.\n"
+"These launchers fire a variety of 40mm grenades with different uses,\n"
+"but they and their rounds are hard to find."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:82
+msgid "computers"
+msgstr "コンピュータ"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:83
+msgid ""
+"Your skill with computers, both in terms of legitimate use, and hacking. "
+"This\n"
+"will help you use complex systems, and bypass their security."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:87
+msgid "mechanics"
+msgstr "機械工作"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:88
+msgid ""
+"Your skill with repairs to mechanical systems, and the crafting of many "
+"items\n"
+"that use complex parts, but are not electronics."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:92
+msgid "electronics"
+msgstr "電子工作"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:93
+msgid ""
+"Your skill with repairs to electrical systems, and the crafting of many "
+"items\n"
+"that use electrical parts."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:97
+msgid "cooking"
+msgstr "調理"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:98
+msgid ""
+"Your skill in combining food ingredients to make other, tastier food items.\n"
+"This may also be used in mixing chemicals and other more esoteric tasks."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:102
+msgid "construction"
+msgstr "建築"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:103
+msgid ""
+"Your general knowledge in construction.  This is used primarily when "
+"building\n"
+"terrain, via the * screen."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:107
+msgid "survival"
+msgstr "サバイバル"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:108
+msgid ""
+"Your skill in wilderness survival.  This helps you butcher meat from a "
+"corpse\n"
+"and craft various basic survival items.  High levels may allow you to "
+"remove\n"
+"poison from tainted meat. Also used for skinning corpses to acquire pelts."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:112
+msgid "traps"
+msgstr "罠"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:113
+msgid ""
+"Your skill at setting and disarming traps safely and effectively. Note that\n"
+"this does not help you detect traps, or avoid their effects if you activate\n"
+"them."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:117
+msgid "tailoring"
+msgstr "裁縫"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:118
+msgid ""
+"Your skill at repairing clothing, and at higher levels, creating clothing\n"
+"from basic materials.  Generally a sewing kit is needed.  Also applies to\n"
+"other methods of clothing repair and textile crafting."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:123
+msgid ""
+"Your skill at emergency medical treatment, such as that from first aid kits\n"
+"and bandages. High levels of this skill may help heal more HP. Some drugs\n"
+"may be more effective as well."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:127
+msgid "speech"
+msgstr "会話"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:128
+msgid ""
+"Your skill at talking to people, convincing them of things, lying, and many\n"
+"others. Works best in conjunction with a high intelligence."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:132
+msgid "barter"
+msgstr "商売"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:133
+msgid ""
+"Your skill at getting a good deal when trading with others. Very high "
+"levels\n"
+"might even see you getting freebies."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:137
+msgid "swimming"
+msgstr "水泳"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:138
+msgid ""
+"Your skill at swimming.  This affects speed, your ability to swim while\n"
+"wearing clothes or carrying weights, and in-water combat."
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:142
+msgid "driving"
+msgstr "運転"
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/skill_data.cpp:143
+msgid ""
+"Your skill at driving. This affects how well you can control a vehicle,\n"
+"as well as the penalty of shooting while driving."
+msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/trapdef.cpp:29
 msgid "roll mat"
