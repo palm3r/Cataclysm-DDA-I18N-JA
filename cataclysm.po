@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm 0.3-i18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 00:58+0900\n"
-"PO-Revision-Date: 2013-03-31 01:12+0900\n"
+"POT-Creation-Date: 2013-03-31 14:19+0900\n"
+"PO-Revision-Date: 2013-03-31 16:08+0900\n"
 "Last-Translator: palm3r <palm3r.x@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1372,7 +1372,7 @@ msgstr "どの方向に火をつけますか？"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/bionics.cpp:322
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/bionics.cpp:375
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/bionics.cpp:461
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:587
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:588
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4086
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4137
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/game.cpp:4167
@@ -2957,51 +2957,50 @@ msgstr "建築"
 msgid "Difficulty:"
 msgstr "難易度:"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:339
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:335
+msgid " OR "
+msgstr ""
+
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:340
 #, c-format
 msgid "Stage %d: %s"
 msgstr "ステージ %d: %s"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:369
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:415
-msgid "OR"
-msgstr "または"
-
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:461
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:462
 msgid "You can't build that!"
 msgstr "それは作れません！"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:583
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:584
 msgid "Pick a direction in which to construct:"
 msgstr "作る方向を選んで下さい:"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:598
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:599
 msgid "You cannot build there!"
 msgstr "そこには作れません！"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:795
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:796
 msgid "Press a direction for the furniture to move (. to cancel):"
 msgstr "家具を動かす方向を選んで下さい ('.'でキャンセル):"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:807
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:808
 msgid "Can't move furniture there! Choose a direction with open floor."
 msgstr "そこには動かせません！床の空いた場所を選んで下さい。"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:826
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:827
 msgid "Press a direction for the tree to fall in:"
 msgstr "木を倒す方向を選んで下さい:"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:848
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:849
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/veh_interact.cpp:407
 msgid "Enter new vehicle name"
 msgstr "新しい乗り物の名前を入力して下さい"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:861
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:862
 #, c-format
 msgid "You tape up the %s."
 msgstr "%sにテープを貼った"
 
-#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:878
+#: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/construction.cpp:879
 #, c-format
 msgid "You disassemble the %s."
 msgstr "%sを分解した"
@@ -10486,7 +10485,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/item.cpp:790
 #, c-format
 msgid "%s of %s"
-msgstr "%2$sの入った%1$s"
+msgstr "%s入りの%s"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/item.cpp:792
 #, c-format
@@ -11189,7 +11188,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/itypedef.cpp:415
 msgid "tuna fish"
-msgstr "ツナ缶"
+msgstr "ツナ"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/itypedef.cpp:417
 msgid "Now with 95 percent less dolphins!"
@@ -19728,7 +19727,7 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/main_menu.cpp:22
 msgid "Please report bugs to TheDarklingWolf@gmail.com or post on the forums."
-msgstr "バグは TheDarklingWolf@gmail.com またはフォーラムへ報告して下さい"
+msgstr "   日本語版のバグ・誤字脱字は http://bit.ly/YT81DZ へご報告下さい"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/main_menu.cpp:59
 msgid "MOTD"
@@ -21216,7 +21215,7 @@ msgstr ""
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/melee.cpp:1245
 #, c-format
 msgid "Your %s gets stuck in %s, but you yank it free."
-msgstr ""
+msgstr "%sは%sに食い止められたが、あなたはそれを引きぬいた。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/melee.cpp:1285
 msgid "Snakebite!"
@@ -24482,23 +24481,23 @@ msgstr ""
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2071
 msgid "Look for player"
-msgstr "プレイヤーを探す"
+msgstr "プレイヤーを探している"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2072
 msgid "Heal player"
-msgstr "プレイヤーを治療する"
+msgstr "プレイヤーを治療している"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2073
 msgid "Follow player"
-msgstr "プレイヤーに追従する"
+msgstr "プレイヤーに追従している"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2074
 msgid "Follow player (embarked)"
-msgstr "プレイヤーに追従する (乗車中)"
+msgstr "プレイヤーに追従している (乗車中)"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2075
 msgid "Talk to player"
-msgstr "プレイヤーと会話する"
+msgstr "プレイヤーと会話している"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npcmove.cpp:2076
 msgid "Mug player"
@@ -24515,12 +24514,12 @@ msgstr "同士討ちは無視する"
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:64
 #, c-format
 msgid "%s is fleeing you!"
-msgstr "%sは逃げ出した！"
+msgstr "%sはあなたから逃げている！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:67
 #, c-format
 msgid "%s is hostile!"
-msgstr "%sは敵対した！"
+msgstr "%sは敵対している！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:117
 #, c-format
@@ -24601,11 +24600,11 @@ msgstr "よし、じゃ任せたよ。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:224
 msgid "<no>, and if you ask again, <ill_kill_you>!"
-msgstr ""
+msgstr "<no>、今度同じことを聞いたら<ill_kill_you>！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:226
 msgid "<no><punc> <fuck_you>!"
-msgstr ""
+msgstr "<no><punc><fuck_you>！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:230
 msgid "Shall we resume?"
@@ -24634,7 +24633,7 @@ msgstr "抗生物質を手に入れるまでは無理だ…。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:253
 msgid "You asked me recently; ask again later."
-msgstr "何度も同じことを言うのはやめてくれ。また今度聞くよ。"
+msgstr "何度も同じことを聞くのはやめてくれ。"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:254
 msgid "Why should I travel with you?"
@@ -25152,7 +25151,7 @@ msgstr "私たちは友達じゃないか？な？"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:864
 msgid "!I'll kill you if you don't."
-msgstr "!もし、そうしないなら殺すぞ！"
+msgstr "そうしないなら殺すぞ！"
 
 #: C:/MinGW/msys/1.0/home/palm3r/repos/Cataclysm-DDA-I18N/npctalk.cpp:875
 msgid "Awesome!"
